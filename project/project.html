@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hampta pass</title>
+        <link rel=stylesheet href="project.css"/>
+        <link rel="icon" href="data:image/png;base64,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"/>
+    </head>
+    <body>
+        <!-- header -->
+        <div class="header">
+            <div class="container header_container">
+                <div class="logo">
+                       Hampta pass
+                </div>  
+                <div class="nav">
+                    <div class="nav-item">Home</div>
+                    <div class="nav-item">itineray</div>
+                    <div class="nav-item">About</div>
+                    <div class="nav-item">Upcoming-treks</div>
+                    <div class="nav-item">Contacts</div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+
+        <!-- <banner -->
+            <div class=banner>
+                <div class="overlay">
+                    <div class="banner_txt">
+                        <div class="pad">
+                            <h1 class="style">Wondering wanderer<h1>
+                                <p class="para">welcome to the hampta pass trek</p>
+                                <P>
+                                    <button class="button">
+                                        start and have fun
+                                    </button>
+                                </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- banner end -->
+
+        <!-- services -->
+
+        <div class="services">
+            <h1>Quick itineray</h1>
+             <div class="container services_container">
+
+                 <div class="service">
+                     <div class="service_img">
+                         <img src="https://indiahikes.com/wp-content/uploads/2016/05/Hampta-pass-Vignesh-5-min-walk-from-Jobra.jpg"/>
+                     </div>
+
+                     <div class="service_details">
+                          <div class="service_pad">
+                             
+                               <h1  class="service_mar">
+                                  Manali to Jobra
+                                </h1>
+                        
+                                <p class="service_desc">
+                                  <b>Altitude</b>: 9,379 ft (2,859 m)<br/>
+                                  <b>Time taken</b>: 2 hours drive from Manali to Jobra; 30-minute trek to Jobra campsite. Reach Prini (Keylinga Inn) by 11.30 am.  The cab fare is Rs.2,500 per vehicle. This is not included in the trek fee. It is to be shared by trekkers and paid directly to the driver.
+                                </p>
+                                <p>
+                                    <button class="service_btn">know more</button>
+                               </p>
+                          </div>
+                     
+                       </div>
+
+                 </div>
+                 <!-- service1 -->
+                 <div class="service">
+                    <div class="service_img">
+                        <img src="https://indiahikes.com/wp-content/uploads/2016/05/Hampta-Pass-Indiahikes-Samir-Mehta-river-crossing-near-Chikha.jpg"/>
+                    </div>
+
+                    <div class="service_details">
+                         <div class="service_pad">
+                            
+                              <h1  class="service_mar">
+                                Jobra to Jwara
+                               </h1>
+                       
+                               <p class="service_desc">
+                                 <b>Altitude</b>:9,379 ft (2,859 m) to 11,194 ft (3,412 m)<br/>
+                                 <b>Time taken</b>: 5 hours, 5 km<br/>
+                                 <b>Trek gradient</b>:Easy-moderate. Easy walk to Chika for about an hour followed by 2 hours of ascent through a boulder section.
+                                  Descent for 1-1.5 hours easing off into a level walk.
+                                  <br/>
+                                  <b>Water sources</b>: Carry sufficient water from Jobra. You can refill your water bottles from the river along the trail.
+
+                               </p>
+                               <p>
+                                   <button class="service_btn">know more</button>
+                              </p>
+                         </div>
+                    
+                      </div>
+
+                </div>
+                <!-- service2 -->
+                <div class="service">
+                    <div class="service_img">
+                        <img src="https://indiahikes.com/wp-content/uploads/2016/05/Hampta-Pass-Indiahikes-Samir-Mehta-Jwara-meadows-and-campsite-1.jpg"/>
+                    </div>
+
+                    <div class="service_details">
+                         <div class="service_pad">
+                            
+                              <h1  class="service_mar">
+                                Jwara to Balu Ka Ghera
+                               </h1>
+                       
+                               <p class="service_desc">
+                                 <b>Altitude</b>:11,194 ft (3,412 m) to 12,411 ft (3,783 m)<br/>
+                                 <b>Time taken</b>: 4-5 hours, 4.5 km<br/>
+                                 <b>Trek gradient</b>: Moderate. Short meadow walk followed by boulder section for a couple of hours, leading to a trail on loose rocks all the way. Very gradual incline through the day.
+                                 
+                               </p>
+                               <p>
+                                   <button class="service_btn">know more</button>
+                              </p>
+                         </div>
+                    
+                      </div>
+
+                </div>
+                <!-- service3 -->
+                <div class="service">
+                    <div class="service_img">
+                        <img src="https://indiahikes.com/wp-content/uploads/2016/05/Hampta-Amit-Gupta-Indrasan-_-Deo-Timba-Peak.jpg"/>
+                    </div>
+
+                    <div class="service_details">
+                         <div class="service_pad">
+                            
+                              <h1  class="service_mar">
+                                Balu Ka Ghera  to Shea Goru 
+                               </h1>
+                       
+                               <p class="service_desc">
+                                 <b>Altitude</b>: 12,411 ft (3,921 m) to 12,864 ft (3,735 m) via 14,065 ft (4,287 m)<br/>
+                                 <b>Time taken</b>: 9 hours,  5 km<br/>
+                                  <b>Trek gradient</b>: Moderate. An hour of gradual ascent after which the trail becomes steep uphill till the pass, interspersed with short descents. 2 hours of steep descent from the pass, easing off into a flat walk.
+                               </p>
+                               <p>
+                                   <button class="service_btn">know more</button>
+                              </p>
+                         </div>
+                    
+                      </div>
+
+                </div>
+             </div>
+     </div>
+        <!-- service end -->
+
+        <!-- know your trek -->
+        <div class="about">  
+            <h1>Our story</h1>
+            <div class="container about_container">
+                <p class="ptext">
+                  <span class="text">O</span>ver 12 years ago, we founders, started Indiahikes with one simple belief  —<i><u>Everyone Must Trek </u></i> .
+                   <br/>
+                  They wanted to do this by bringing out information about treks, and by setting the right spirit of trekking in India. 
+                  <br/>
+                  What began as one humble blogpost about the Roopkund trek has now blossomed into <i><u>India’s largest database of trek</u></i> related information.
+              </p>
+
+
+            </div>
+        </div>
+        
+       <!-- highlight -->
+
+       <div class="highlight">
+           <div class="container high-conatiner">
+             <div class="high-ele">
+                 <div class="high-ele-child">
+                     <h1 class="high-title"> 12+   </h1>  
+                     <p class="high-desc"> Years of Experience</p> 
+                  </div>         
+             </div> 
+             <div class="high-ele">
+                <div class="high-ele-child">
+                      <h1 class="high-title"> 100+   </h1>  
+                      <p class="high-desc"> Guides</p> 
+                 </div> 
+             </div>
+             <div class="high-ele">
+                <div class="high-ele-child">
+                      <h1 class="high-title"> 20,000+   </h1>  
+                       <p class="high-desc"> Happy trekkers</p> 
+                 </div>    
+             </div>
+           </div>
+        </div>
+<!-- 
+        map -->
+
+        <h1 class="map">Know your trek map</h1>
+        <div class="map-img">
+            <img  src="https://indiahikes.com/wp-content/uploads/2020/08/IH_Map_Hampta-Pass_1d.jpg"/>
+        </div>
+
+<!-- Upcoming-treks -->
+<div class="tit-upcome">
+    <h1 >Plan your next trek</h1>
+    <div class="upad">
+     <button class="trek">
+        Choose your next trek
+     </button>
+  </div>
+
+</div>
+    
+<!-- next -->
+      <div class="next">
+          <div class="container next-container">
+              <div class="nt plan-one">
+                  <div class="plan-title">
+                       Beas Kund trek
+                  </div>
+             </div>
+              <div class="nt plan-two">
+                <div class="plan-title">
+                    Valley Of Flowers Trek
+               </div>
+            </div>
+              <div class="nt plan-three"> 
+                <div class="plan-title">
+                    Bhrigu Lake Trek
+               </div>
+            </div>
+              <div class="nt plan-four">
+                <div class="plan-title">
+                    Pin Bhaba Pass Trek
+               </div>
+            </div>
+              <div class="nt plan-five">
+                <div class="plan-title">
+                    Rupin Pass Trek
+               </div>
+            </div>
+              <div class="nt plan-six">
+                <div class="plan-title">
+                    Kedartal Trek
+               </div>
+            </div>          
+            
+            </div>
+
+      </div>
+ <!-- footer -->
+ <div class="footer">
+     <div class="container footer-container">
+           <div class="footer-child foot1">
+               <h1 class="footer-logo">Hampta pass</h1>
+        </div>
+         <div class="footer-child">
+             <ul>
+                 <li class="first">Quick links</li>
+                 <li>About</li>
+                 <li>itineray</li>
+                 <li>Upcoming-treks</li>
+                 <li>contacts</li>
+             </ul>
+         </div>
+         <div class="footer-child">
+             <ul>
+                 <li class="first">
+                     Contact us
+
+                 </li>
+                 <li>#23 ,13th main,
+                     KR Circle bangalore-56001,Karnataka
+                    </li>
+                     <li>819033891</li>
+                     <li>info@hamptapass.com</li>
+             </ul>
+         </div>
+         <div class="footer-child foot4">
+             <div class="container  footer5">
+                 <div class="social s1"></div>
+                 <div class="social s2"></div>
+                 <div class="social s3"></div>
+                 <div class="social s4"></div>
+             </div>
+
+         </div>
+     </div>
+ </div>
+
+    </body>
+ 
+</html>

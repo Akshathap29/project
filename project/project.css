@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color:#282928 ;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.header_container{
+    justify-content: space-between;
+}
+.container{
+    width: 90%;
+    /* background-col/ */
+    display: flex;
+
+}
+.logo{
+    width:20%;
+    /* background-color: yellow; */
+    font-size:35px ;
+    font-family:'Segoe UI' ;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+.nav{
+    width: 45%;
+    /* background-color: teal; */
+    display: flex;
+    cursor: pointer;
+}
+.nav-item{
+/* background-color: violet; */
+font-size: 20px;
+font-family: 'Segoe UI';
+text-align: center;
+line-height: 40px;
+color: white;
+/* font-weight: bold; */
+padding-bottom: 10px;
+margin: 7px;
+}
+.nav-item:hover{
+    background-color:rgb(51, 164, 240) ;
+    color:#282928 ;
+    font-weight: bolder;  
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    background-image: url(https://thehosteller.com/wp-content/uploads/2019/06/IMG_20180730_125208-min-scaled.jpg);
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner_txt{
+    height:200px;
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+
+}
+.pad{
+    padding: 20px;
+}
+.style{
+    font-size: 50px;
+}
+.para{
+    font-size: 25px;
+}
+.button{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.2s;
+}
+.button:hover{
+    background-color:rgb(51, 164, 240);
+    color: black;
+
+}
+
+
+
+
+.services
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c5f7f4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+}
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+}
+
+
+.service{
+   
+    height: 400px;
+    width:47%;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+   
+    
+}
+.service_img{
+    height: 400px;
+    width:50%;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+
+}
+.service_details{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* background-color: gray; */
+    
+}
+.service_pad{
+    padding: 10%;
+}
+
+.service_btn{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#282928;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+.service_btn:hover{
+    background-color:rgb(51, 164, 240);
+    color:black;
+}
+.service_mar{
+    margin-bottom:25px;
+}
+.service_desc{
+    margin-bottom:20px;
+}
+
+
+
+
+.about{
+padding-top: 50px;
+padding-bottom: 50px;
+width: 100%;
+/* background-color: gray; */
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Segoe UI';
+
+}
+.about_container{
+    margin-top: 30px;
+    /* background-color: green; */
+    line-height: 30px;
+    display: inline;
+}
+.text{
+    font-size: 50px;
+    font-weight:bolder ;
+    color:gray;
+}
+.ptext{
+    font-size: 20px;
+}
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(5, 91, 148);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.high-ele{
+    width: 50%;
+    height:200px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color:white;
+}
+.high-title{
+    font-size: 50px;
+
+}
+.high-desc{
+    font-size: 25px;
+
+}
+.map{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Segoe UI;
+}
+.map-img{
+    display: flex;
+    justify-content: center;
+}
+.tit-upcome{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI';
+
+}
+.upad{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.trek{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#282928;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+ .trek:hover{
+    background-color:rgb(51, 164, 240);
+    color:black;
+ }  
+
+.next{
+
+     /* padding-bottom: 50px; */
+     padding-top: 50px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     /* background-color: blue; */
+ }
+ .next-container{
+     width: 100%;
+     flex-wrap: wrap;
+     overflow: hidden;
+     background-size: cover;
+ }
+ .nt{
+     width: 33.3%;
+     height: 250px;
+     /* background-color: brown; */
+     justify-content: space-between;
+     display: flex;
+     
+ }
+ 
+ .plan-one{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2018/09/Beas-Kund_BK_SHIBAYAN-KAYAL-The-Holy-Beas-River-1536x960.jpg');
+    background-size: cover; 
+ }
+ .plan-two{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2020/06/ValleyOfFlowers-Pavan-Jain-Blooming-flowers-of-the-valley-1-1536x864.jpg');
+    background-size: cover; 
+    align-items: flex-end;
+ }
+ .plan-three{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2016/06/Photo-by-Krishna-Nayak-19-1536x864.jpg');
+    background-size: cover; 
+ }
+ .plan-four{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2016/08/Copy-of-PinBhaba-JagadeeshDM-PinValley_An-Hour-before-Mudh-Village.jpg');
+    background-size: cover; 
+ }
+ .plan-five{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2011/07/Lower-Waterfall-Campsite-Indiahikes-Rupin-Pass-Vinod-Krishna.jpg');
+    background-size: cover; 
+    align-items: flex-end;
+ }
+ .plan-six{
+    background-image: url('https://indiahikes.com/wp-content/uploads/2017/12/Kedartal-Vikas-Sharma-Reflection-of-Thalayasagar-in-Kedartal-2.jpeg');
+    background-size: cover; 
+ }
+.plan-title{
+    color: black;
+    width: 100%;
+    background-color: rgba(25, 160, 238, 0.5);
+    font-family: 'Segoe UI';
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 30px;
+    line-height: 150px;
+    cursor: pointer;
+
+}
+.plan-title:hover{
+    height: 250px;
+    transition: 0.4s;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+}
+    
+.footer-child{
+    height: 200px;
+    width: 25%;
+    /* background-color: burlywood; */
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+}
+
+.foot1{
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+ul{
+    margin-top: 40px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 12px;
+    color: white;
+}
+.first{
+    font-size: 22px;
+}
+.foot4{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer5{
+   justify-content: space-between;
+}
+.social{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+   background-size: cover;
+}
+.s1{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-128.png');
+}
+.s2{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-128.png');
+}
+.s3{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-128.png');
+}
+.s4{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/capsocial-round/500/linkedin-256.png');
+}
