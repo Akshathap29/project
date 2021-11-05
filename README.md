@@ -1,3 +1,3 @@
-# project
-Hampta pass
+# Hampta pass
+
 A simple webpage using HTML and CSS
