@@ -1,2 +1,3 @@
 # Hampta pass
-A simple webpage using HTML and CSS
+
+A simple tourist webpage using HTML and CSS
